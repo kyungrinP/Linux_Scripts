@@ -1,0 +1,5 @@
+/tmp/.Test-unix
+/tmp/.XIM-unix
+/tmp/.X11-unix
+/tmp/.font-unix
+/tmp/.ICE-unix
