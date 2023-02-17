@@ -4,7 +4,7 @@ RESULT=result.log
 > $RESULT
 
 
-RESULT2=/root/Linux_Scripts/result2.log
+RESULT2=~/Linux_Scripts/result2.log
 >> $LOG
 >> $RESULT2
 
@@ -23,6 +23,9 @@ echo '[INFO] : Information 파일을 보고, 고객과 상의'
 OK() {
 echo -e '\033[1;33m'"[ 양호 ] : $*"'\033[0m'
 } >> $RESULT
+WARN() {
+echo -e '\033[31m'"[ 경고 ] : $*"'\033[0m'
+} >> $RESULT2
 WARN() {
 echo -e '\033[31m'"[ 경고 ] : $*"'\033[0m'
 } >> $RESULT
