@@ -51,10 +51,9 @@ echo
 U-42.sh
 
 echo "========================================================================"
-cat ~/Linux_Scripts/result2.log
+cat /root/Linux_Scripts/result2.log
 echo "========================================================================"
-#rm -rf /root/Linux_Scripts/result2.log
 
 today=$(date +%Y%m%d)
-tar zcfp /root/D_LOG-$today.tar.gz *.log
+tar zcfp /root/Linux_Scripts/D_LOG-$today.tar.gz *.log
 rm -rf *.log

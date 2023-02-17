@@ -3,12 +3,9 @@ RESULT=result.log
 > $LOG
 > $RESULT
 
-
-RESULT2=~/Linux_Scripts/result2.log
+RESULT2=/root/Linux_Scripts/result2.log
 >> $LOG
 >> $RESULT2
-
-
 
 BAR() {
 echo "========================================================================" >> $RESULT
@@ -25,10 +22,10 @@ echo -e '\033[1;33m'"[ 양호 ] : $*"'\033[0m'
 } >> $RESULT
 WARN() {
 echo -e '\033[31m'"[ 경고 ] : $*"'\033[0m'
-} >> $RESULT2
+} >> $RESULT
 WARN() {
 echo -e '\033[31m'"[ 경고 ] : $*"'\033[0m'
-} >> $RESULT
+} >> $RESULT2
 INFO() { 
 echo -e '\033[32m'"[ 정보 ] : $*"'\033[0m'
 } >> $RESULT

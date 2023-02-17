@@ -73,8 +73,7 @@ U-67.sh
 echo "========================================================================"
 cat /root/Linux_Scripts/result2.log
 echo "========================================================================"
-#rm -rf /root/Linux_Scripts/result2.log
 
-#today=$(date +%Y%m%d)
-#tar zcfp /root/D_LOG-$today.tar.gz *.log
-#rm -rf *.log
+today=$(date +%Y%m%d)
+tar zcfp /root/D_LOG-$today.tar.gz *.log
+rm -rf *.log
