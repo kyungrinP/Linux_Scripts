@@ -3,7 +3,7 @@ RESULT=result.log
 > $LOG
 > $RESULT
 
-RESULT2=/scripts/result2.log
+RESULT2=/root/Linux_Scripts/result2.log
 >> $LOG
 >> $RESULT2
 

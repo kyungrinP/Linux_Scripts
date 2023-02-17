@@ -3,6 +3,10 @@ RESULT=result.log
 > $LOG
 > $RESULT
 
+RESULT2=/root/Linux_Scripts/result2.log
+>> $LOG
+>> $RESULT2
+
 BAR() {
 echo "========================================================================" >> $RESULT
 }

@@ -2,14 +2,14 @@
 
 
 
-export PATH=$PATH:/root/scripts/Daily/01.unauthorized_user_management
-export PATH=$PATH:/root/scripts/Daily/02.unauthorized_user_security
-export PATH=$PATH:/root/scripts/Daily/03.DOS_attack
-export PATH=$PATH:/root/scripts/Daily/04.package_update
-export PATH=$PATH:/Weekly/01.unauthorized_user_management/
-export PATH=$PATH:/Weekly/02.unauthorized_user_security/
-export PATH=$PATH:/Weekly/03.DOS_attack
-export PATH=$PATH:/root/scripts/Monthly/01.unauthorized_user_management
+export PATH=$PATH:/root/scripts/Linux_Scripts/Daily/01.unauthorized_user_management
+export PATH=$PATH:/root/scripts/Linux_Scripts/Daily/02.unauthorized_user_security
+export PATH=$PATH:/root/scripts/Linux_Scripts/Daily/03.DOS_attack
+export PATH=$PATH:/root/scripts/Linux_Scripts/Daily/04.package_update
+export PATH=$PATH:/root/scripts/Linux_Scripts//Weekly/01.unauthorized_user_management/
+export PATH=$PATH:/root/scripts/Linux_Scripts//Weekly/02.unauthorized_user_security/
+export PATH=$PATH:/root/scripts/Linux_Scripts//Weekly/03.DOS_attack
+export PATH=$PATH:/root/scripts/Linux_Scripts/Monthly/01.unauthorized_user_management
 
 U-01.sh
 echo
@@ -83,9 +83,9 @@ u-68.sh
 
 
 echo "========================================================================"
-cat ./script/result2.log
+cat ./root/Linux_Scripts/result2.log
 echo "========================================================================"
-rm -rf /script/result2.log
+rm -rf /root/Linux_Scripts/result2.log
 
 today=$(date +%Y%m%d)
 tar zcfp /root/D_LOG-$today.tar.gz *.log

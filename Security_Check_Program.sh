@@ -36,13 +36,13 @@ read -p "Enter your choice (1번, 2번, 3번): " choice
 # Handle the user's choice
 case $choice in
   1)
-    source /root/Check_Scripts/1.Daily_Check.sh
+    source /root/Linux_Scripts/Check_Scripts/1.Daily_Check.sh
     ;;
   2)
-    source /root/Check_Scripts/2.Weekly_Check.sh
+    source /root/Linux_Scripts/Check_Scripts/2.Weekly_Check.sh
     ;;
   3)
-    source /root/Check_Scripts/3.Monthly_Check.sh
+    source /root/Linux_Scripts/Check_Scripts/3.Monthly_Check.sh
     ;;
   *)
     echo "Invalid choice. Please select 1, 2, 3."
